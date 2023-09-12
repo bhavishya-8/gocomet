@@ -1,0 +1,38 @@
+{
+    "success-request": {
+        "total": 400,
+        "worker1": 1,
+        "worker2": 400,
+        "worker3": 400,
+        "worker4": 400,
+        "workerBhanu": 1,
+        "workerNone": 3
+    },
+    "failed-request": {
+        "total": 0,
+        "worker1": 0,
+        "worker2": 400,
+        "worker3": 400,
+        "worker4": 400,
+        "workerBhanu": 0,
+        "workerNone": 0
+    },
+    "total-request": {
+        "total": 400,
+        "worker1": 1,
+        "worker2": 400,
+        "worker3": 400,
+        "worker4": 400,
+        "workerBhanu": 1,
+        "workerNone": 3
+    },
+    "avg-request-time": {
+        "total": 0.5,
+        "worker1": 0.9,
+        "worker2": 400,
+        "worker3": 400,
+        "worker4": 400,
+        "workerBhanu": 0.9,
+        "workerNone": 0.9333333333333332
+    }
+}
