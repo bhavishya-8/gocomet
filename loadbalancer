@@ -1,6 +1,0 @@
-FROM python:3-alpine3.15
-WORKDIR /real/loadbalancer/
-COPY . /real/container_data/
-RUN pip install -r loadbalancer_requirement.txt
-EXPOSE 3000
-CMD python ./webapp.py
