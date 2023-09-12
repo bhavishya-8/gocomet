@@ -1,0 +1,6 @@
+FROM python:3-alpine3.15
+WORKDIR /real/loadbalancer/
+COPY ./real/loadbalancer/* .
+# RUN pip install -r loadbalancer_requirement.txt
+EXPOSE 8080
+CMD python ./loadbalancer.py
